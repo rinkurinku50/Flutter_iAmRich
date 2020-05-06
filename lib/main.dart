@@ -5,8 +5,11 @@ void main() => runApp(
       MaterialApp(
         home:Scaffold(
         appBar: AppBar(
-          title: Text("Rinku Dhiman"),
+          title: Text("Rinku"),
+          backgroundColor: Colors.blueGrey[900],
         ),
+       
         ),
+      debugShowCheckedModeBanner: false,
       ),
     );
